@@ -43,12 +43,12 @@ public class Tool_bar extends JToolBar{
         add(comp_bttn);
 
         Tool_bttn_create class_bttn = new Tool_bttn_create("img/class.png",
-                                                           new Class_mode(),
+                                                           new Create_basic_object_mode("classObj"),
                                                            "img/class_copy.png");
         add(class_bttn);
 
         Tool_bttn_create use_case_bttn = new Tool_bttn_create("img/use_case.png",
-                                                              new Use_case_mode(),
+                                                              new Create_basic_object_mode("useCase"),
                                                               "img/use_case_copy.png");
         add(use_case_bttn);
     }

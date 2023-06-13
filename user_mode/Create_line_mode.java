@@ -12,10 +12,10 @@ public class Create_line_mode extends Mode{
     private Point starting_point = null, ending_point = null;
     private int port1 = -1, port2 = -1;
     private Super_object conn_obj1 = null, conn_obj2 = null;
-    private Line_factory factory;
+    private Object_factory factory;
 
     public Create_line_mode(String lineType){
-        factory = new Line_factory(lineType);
+        factory = new Object_factory(lineType);
     }
 
     @Override
