@@ -9,7 +9,7 @@ import base_classes.Generalization_line;
 import base_classes.Line;
 import base_classes.Use_case;
 
-public class Object_factory implements Object_factory_interface{
+public class Object_factory{
     private String objectType;
     public Object_factory(String objectType){
         this.objectType = objectType;
