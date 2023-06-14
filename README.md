@@ -10,3 +10,6 @@
 - Rename classes or use cases
 - group components
 - ungroup componets
+
+## How to run
+to run this project, just download it and run App.java
