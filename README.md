@@ -13,3 +13,7 @@
 
 ## How to run
 to run this project, just download it and run App.java
+
+## Problems
+- It's not OK to use factory here(factory should be used in multi source, here we just have 2 sources)
+- in Canvas.java, there's no need to use dynamic casting(casting down) since listener had implemented "MouseListener" and "MouseMotionListener"
